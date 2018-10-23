@@ -1,0 +1,70 @@
+{
+  "name": "seopro",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "3562ca2f2f16f6629b5ffabfe3cfa5a7",
+      "css": "ahrefs-site",
+      "code": 59392,
+      "src": "typicons"
+    },
+    {
+      "uid": "96418ab910c40c3bf61a9ba7b718c49d",
+      "css": "ahrefs-rank",
+      "code": 59393,
+      "src": "iconic"
+    },
+    {
+      "uid": "pzy4lq1ak4datbxpdfj3ya74vjfhwxg1",
+      "css": "ahrefs-content",
+      "code": 59394,
+      "src": "modernpics"
+    },
+    {
+      "uid": "6364d85e960f23b9a843a506387e7970",
+      "css": "whois",
+      "code": 59396,
+      "src": "typicons"
+    },
+    {
+      "uid": "8c0ffa714cecbf5144e022d9c3df4a1f",
+      "css": "wayback",
+      "code": 61852,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e36d581e4f2844db345bddc205d15dda",
+      "css": "instagram-follow-all",
+      "code": 59397,
+      "src": "elusive"
+    },
+    {
+      "uid": "b19ac67070bc44e310990016288e449c",
+      "css": "instagram-like-all",
+      "code": 59398,
+      "src": "linecons"
+    },
+    {
+      "uid": "381da2c2f7fd51f8de877c044d7f439d",
+      "css": "audit-img",
+      "code": 59399,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "930c31d4c72bd792b5dceb6de607c3e0",
+      "css": "audit-snippet",
+      "code": 59400,
+      "src": "linecons"
+    },
+    {
+      "uid": "cf772d9d1eca484c9772a98045dd39d6",
+      "css": "responsinator",
+      "code": 59395,
+      "src": "elusive"
+    }
+  ]
+}

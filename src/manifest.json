@@ -1,0 +1,68 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.0.1",
+
+  "name": "SEOPro",
+  "description": "The best SEO/digital marketing extension in the known universe!",
+
+  "icons": {
+    "128": "icons/128.png"
+  },
+
+  "web_accessible_resources": [
+    "assets/js/toolbar.js",
+
+    "assets/fontello/font/seopro.eot",
+    "assets/fontello/font/seopro.svg",
+    "assets/fontello/font/seopro.ttf",
+    "assets/fontello/font/seopro.woff",
+    "assets/fontello/font/seopro.woff2",
+
+    "icons/300.png",
+    "icons/128.png",
+    "icons/100.png",
+    "icons/38.png",
+    "icons/19.png"
+  ],
+
+  "background": {
+    "scripts": [
+      "assets/js/background.js"
+    ],
+
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+
+      "js": [
+        "assets/js/jquery.min.js",
+        "assets/js/inject.js",
+        "assets/js/jquery-migrate.min.js",
+        "assets/js/content.js"
+      ],
+
+      "css": [
+        "assets/css/toolbar.css",
+        "assets/fontello/css/seopro.css"
+      ]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/19.png",
+      "38": "icons/38.png"
+    },
+
+    "default_title": "Toggle SEOPro Bar"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}

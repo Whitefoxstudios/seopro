@@ -1,0 +1,129 @@
+{
+  'id': '__uuid__',
+  'type': 'project',
+  'status': '__user_input__',
+  'data': {
+    'name': '__user_input__',
+    'url': '__user_input__',
+    'google': {
+      'analytics': '__api_identifier__',
+      'search_console': '__api_identifier__',
+      'my_business': '__api_identifier__',
+    },
+    'locations': [
+      {
+        'id': '__uuid__',
+        'type': 'location',
+        'status': '__user_input__',
+        'data': {
+          'name': '__user_input__',
+          'address': [
+            {
+              'id': '__uuid__',
+              'type': 'address',
+              'status': '__user_input__',
+              'data': {
+                'street': '__user_input__',
+                'suite': '__user_input__',
+                'city': '__user_input__',
+                'state': '__user_input__',
+                'zip': '__user_input__'
+              },
+              'created': '__datetime__',
+              'updated': '__datetime__'
+            }
+          ],
+          'phone': '__user_input__',
+          'email': '__user_input__',
+          'hours': [
+            {
+              'id': '__uuid__',
+              'type': 'hours',
+              'status': '__user_input__',
+              'data': {
+                'dates', [
+                  'standard'
+                ],
+                'monday': {
+                  'open': '__user_input__',
+                  'close': '__user_input__',
+                },
+                'tuesday': {
+                  'open': '__user_input__',
+                  'close': '__user_input__',
+                },
+                'wednesday': {
+                  'open': '__user_input__',
+                  'close': '__user_input__',
+                },
+                'thursday': {
+                  'open': '__user_input__',
+                  'close': '__user_input__',
+                },
+                'friday': {
+                  'open': '__user_input__',
+                  'close': '__user_input__',
+                },
+                'saturday': {
+                  'open': '__user_input__',
+                  'close': '__user_input__',
+                },
+                'sunday': {
+                  'open': '__user_input__',
+                  'close': '__user_input__',
+                }
+              },
+              'created': '__datetime__',
+              'updated': '__datetime__'
+            }
+          ],
+          'placesId': '__api_identifier__',
+          'citations': [
+            {
+              'id': '__uuid__',
+              'type': 'citation',
+              'status': '__user_input__',
+              'data': {
+                'submit': '__user_input__',
+                'profile': '__user_input__',
+              },
+              'created': '__datetime__',
+              'updated': '__datetime__'
+            }
+          ]
+        },
+        'created': '__datetime__',
+        'updated': '__datetime__'
+      }
+    ],
+    'socials': [
+      {
+        'id': '__uuid__',
+        'type': 'social',
+        'status': '__user_input__',
+        'data': {
+          'submit': '__user_input__',
+          'profile': '__user_input__',
+        },
+        'created': '__datetime__',
+        'updated': '__datetime__'
+      }
+    ],
+    'links': [
+      {
+        'id': '__uuid__',
+        'type': 'link',
+        'status': '__user_input__',
+        'data': {
+          'submit': '__user_input__',
+          'profile': '__user_input__',
+        },
+        'created': '__datetime__',
+        'updated': '__datetime__'
+      }
+    ],
+    'default_location'
+  },
+  'created': '__datetime__',
+  'updated': '__datetime__'
+}
